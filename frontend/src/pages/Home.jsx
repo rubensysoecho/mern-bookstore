@@ -32,7 +32,7 @@ const Home = () => {
           <MdOutlineAddBox className='text-sky-800 text-4xl' />
         </Link>
       </div>
-      {loading ? (
+      { loading ? (
         <Spinner />
       ) : (
         <table className='w-full border-separate border-spacing-2'>
@@ -51,45 +51,45 @@ const Home = () => {
           </thead>
 
           <tbody>
-            {books.map((book, index) => (
-              <tr key={book._id} className='h-8'>
+            { books.map((book, index) => (
+              <tr key={ book._id } className='h-8'>
                 <td className='border border-slate-700 rounded-md text-center'>
-                  {index + 1}
+                  { index + 1 }
                 </td>
 
                 <td className='border border-slate-700 rounded-md text-center'>
-                  {book.title}
+                  { book.title }
                 </td>
 
                 <td className='border border-slate-700 rounded-md text-center max-md:hidden'>
-                  {book.author}
+                  { book.author }
                 </td>
 
                 <td className='border border-slate-700 rounded-md text-center max-md:hidden'>
-                  {book.publishYear}
+                  { book.publishYear }
                 </td>
 
                 <td className='border border-slate-700 rounded-md text-center'>
                   <div className='flex justify-center gap-x-4'>
-                    <Link to={`/books/details/${book._id}`}>
+                    <Link to={ `/books/details/${book._id}` }>
                       <BsInfoCircle className='text-2xl text-green-800' />
                     </Link>
 
-                    <Link to={`/books/edit/${book._id}`}>
+                    <Link to={ `/books/edit/${book._id}` }>
                       <AiOutlineEdit className='text-2xl text-yellow-600' />
                     </Link>
 
-                    <Link to={`/books/delete/${book._id}`}>
+                    <Link to={ `/books/delete/${book._id}` }>
                       <MdOutlineDelete className='text-2xl text-red-600' />
                     </Link>
                   </div>
                 </td>
               </tr>
-            ))}
+            )) }
           </tbody>
 
         </table>
-      )}
+      ) }
 
 
     </div>
