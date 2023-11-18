@@ -16,19 +16,18 @@ This Web Application allows the user to add information about his/her favourite 
 It has various functionalities, like -->
 
 ### Display the books of a database in a table
-![Captura de pantalla 2023-11-18 201842](https://github.com/rubensysoecho/mern-bookstore/assets/95583458/374f7105-1333-44cd-b6c5-b290aefad32c)
+![01](./images/01.png)
 
 ### Read information about a book
-![image](https://github.com/rubensysoecho/mern-bookstore/assets/95583458/3b019c8f-44e2-4090-9abe-1251ffa2ff1f)¡
+![02](./images/02.png)
 
 ### Edit information about a book
-![image](https://github.com/rubensysoecho/mern-bookstore/assets/95583458/13584eab-8ca3-4a7b-8938-edaff97fa085)
+![03](./images/03.png)
 
 ### Delete a book
-![image](https://github.com/rubensysoecho/mern-bookstore/assets/95583458/64600d3b-8166-4e0b-88c7-3a64455b98b0)
+![04](./images/04.png)
 
 ### Create a book
-![image](https://github.com/rubensysoecho/mern-bookstore/assets/95583458/00a3d8d1-b18e-4621-b7ad-40c18d4ef242)
-
+![05](./images/05.png)
 
 
